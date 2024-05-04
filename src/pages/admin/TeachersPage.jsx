@@ -140,7 +140,7 @@ const TeachersPage = () => {
     {
         title: "View Students",
         dataIndex: "id",
-        render: (id) => <Fragment><Button type="dashed"><Link to={`/admin/students/${id}`} >View</Link> </Button></Fragment>,
+        render: (id) => <Fragment><Button type="dashed"><Link to={`/admin/teacher/${id}`} >View</Link> </Button></Fragment>,
       },
   ];
 
